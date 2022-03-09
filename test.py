@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 h = 8
 
 
@@ -10,7 +9,6 @@ def dosomththingz(a, z, y):
     :a: integer
     :z: dataFrame
     :y: list
-
     """
     z["xyz"] = z[y] / 60 / h
     z["abc"] = z["xyz"] * a
@@ -46,9 +44,8 @@ def dosomththingz(param1, param2, param3):
 
 # Example
 v = pds.DataFrame({"a": [120, 240, 60]})
-
 rs = dosomththingz(1000, v, "a")
 print(rs)
 
 
-dosomththingz(1, pd.DataFrame([2, 2, 2]), dict({"key": [3, 3, 3]}.keys))
+print("hi")
